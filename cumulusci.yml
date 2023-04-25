@@ -1,0 +1,28 @@
+minimum_cumulusci_version: '3.74.0'
+project:
+    name: hc-solution-factory-module-um
+    package:
+        name: hc-solution-factory-module-um
+        api_version: '55.0'
+    git:
+        default_branch: 'main'
+        prefix_feature: 'feature/'
+        prefix_beta: 'beta/'
+        prefix_release: 'release/'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/hc-solution-factory-module-um/tests
+            options:
+                outputdir: robot/hc-solution-factory-module-um/results
+
+    robot_testdoc:
+        options:
+            path: robot/hc-solution-factory-module-um/tests
+            output: robot/hc-solution-factory-module-um/doc/hc-solution-factory-module-um_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75
