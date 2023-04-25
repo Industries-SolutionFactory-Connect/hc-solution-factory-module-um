@@ -1,6 +1,6 @@
 {
   "orgName": "hc-solution-factory-module-um - Dev Org",
-  "edition": "Developer",
+   "template": "0TTB0000001X8yx",
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
