@@ -3,7 +3,7 @@ project:
     name: hc-solution-factory-module-um
     package:
         name: hc-solution-factory-module-um
-        api_version: '55.0'
+        api_version: '57.0'
     git:
         default_branch: 'main'
         prefix_feature: 'feature/'
